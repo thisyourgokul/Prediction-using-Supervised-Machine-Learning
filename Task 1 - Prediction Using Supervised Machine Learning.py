@@ -101,15 +101,9 @@ df=pd.DataFrame({'Actual Value':y_test, 'Predicted Value':y_pred})
 df
 
 
+
+
 # In[68]:
-
-
-#Comparing Actual Value vs Predicted Value
-df=pd.DataFrame({'Actual Value':y_test, 'Predicted Value':y_pred})
-df
-
-
-# In[69]:
 
 
 #Testing with my own Data
@@ -120,7 +114,7 @@ print("Number of Hours = {}".format(hours))
 print("Predicted Score = {}".format(own_pred[0]))
 
 
-# In[70]:
+# In[69]:
 
 
 from sklearn import metrics  
